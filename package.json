@@ -1,0 +1,25 @@
+{
+  "name": "HNScraper",
+  "version": "1.0.0",
+  "description": "Quick and dirty project to scrape top level comments for hn posts containing certain key words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanBoyle/HNScraper.git"
+  },
+  "keywords": [
+    "HN",
+    "hackernews",
+    "scaper",
+    "comments"
+  ],
+  "author": "Evan Boyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvanBoyle/HNScraper/issues"
+  },
+  "homepage": "https://github.com/EvanBoyle/HNScraper"
+}
