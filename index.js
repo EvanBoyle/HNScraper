@@ -88,6 +88,7 @@ Q.allSettled(promises).then(function(results){
 							text: result.text,
 							time: new Date(result.time * 1000).toString()
 						});
+					comments.push('<h2> end of record </h2> <br/>');
 				}
 			}
 			
@@ -99,7 +100,7 @@ Q.allSettled(promises).then(function(results){
 	Q.allSettled(commentPromises).then(function(results){
 		console.info(comments.length);
 		var result = JSON.stringify(comments, null, 4);
-		fs.writeFile("HNSearchPosts.txt", result);
+		fs.writeFile("HNSearchPosts.html", result);
 	});
 
 });
