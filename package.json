@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Quick and dirty project to scrape top level comments for hn posts containing certain key words",
   "main": "index.js",
+  "dependencies": {
+    "q": "1.4.1",
+    "request": "2.57.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
